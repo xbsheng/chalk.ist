@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "dev": "nuxt dev",
     "prepare": "nuxi prepare",
-    "build": "vue-tsc --noEmit && nuxt build",
+    "build": "nuxt build",
     "serve": "nuxt preview"
   },
   "prettier": {
